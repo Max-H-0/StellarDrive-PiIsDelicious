@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+
+        <!--  MelonLoader + Harmony -->
+        <Reference Include="ReferencedAssemblies/MelonLoader.dll" />
+        <Reference Include="ReferencedAssemblies/0Harmony.dll" />
+
+        <!--  Unity  -->
+        <Reference Include="ReferencedAssemblies/UnityEngine.CoreModule.dll" />
+        <Reference Include="ReferencedAssemblies/Unity.TextMeshPro.dll" />
+
+        <!--  StellarDrive + FishNet Runtime  -->
+        <Reference Include="ReferencedAssemblies/Assembly-CSharp.dll" />
+        <Reference Include="ReferencedAssemblies/FishNet.Runtime.dll" />
+        <Reference Include="ReferencedAssemblies/Managers.Interface.dll" />
+        <Reference Include="ReferencedAssemblies/WorldTracking.Interface.dll" />
+        <Reference Include="ReferencedAssemblies/Core.dll" />
+        <Reference Include="ReferencedAssemblies/Ships.dll" />
+        <Reference Include="ReferencedAssemblies/Ships.Interface.dll" />
+        <Reference Include="ReferencedAssemblies/Players.dll" />
+        <Reference Include="ReferencedAssemblies/Players.Interface.dll" />
+
+    </ItemGroup>
+
+
+    <ItemGroup>
+
+        <!--  Expression Evaluation  -->
+        <PackageReference Include="MathosParser" Version="1.0.5.1" />
+
+    </ItemGroup>
+
+</Project>

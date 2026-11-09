@@ -1,0 +1,21 @@
+{
+    "id": "pi-is-delicious",
+    "name": "Pi Is Delicious",
+    "author": "Max_H",
+    "version": "1.0.0",
+    "description": "Lets you do math in the constant gate. Among other things it's very usefull to quickly enter multiples of pi.",
+    "thumbnail": "image-1.png",
+    "images": [
+        "image-1.png",
+        "image-2.png"
+    ],
+    "ai": "ai-free",
+    "development": "inactive",
+    "tags": [
+        "logic",
+        "math",
+        "pi",
+        "tau",
+        "constant"
+    ]
+}
